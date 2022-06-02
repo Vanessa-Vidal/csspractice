@@ -1,6 +1,75 @@
 
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Hello, ENTR-451!</title>
+  </head>
+
+
 <div class="container mt-5 p-5 bg-dark text-white rounded-3">
-      <h1 class="display-4">Introduction to Software Development</h1 class="display-4">
-      <p class="lead">Helping Kellogg students live the #developerlife, since 2015</p>
-      <a class="btn btn-success text-white btn-lg" href="#" role="button">Pricing and Plans</a>
+    <h1 class="display-4">Introduction to Software Development</h1 class="display-4">
+    <p class="lead">Helping Kellogg students live the #developerlife, since 2015</p>
+    <a class="btn btn-success text-white btn-lg" href="#" role="button">Pricing and Plans</a>
+</div>
+
+  <div class="container my-5">
+    <div class="row">
+      <div class="col text-center">
+      <h3> What you'll learn </h3>
+      </div>
     </div>
+
+    <div class="row mt-4">
+      <div class="col-sm-4 text-center">
+        <h1><i class="fas fa-code"></i></h1>
+        <h5>HTML and CSS</h5>
+        <p> When we're done with you,
+        you'll be able to build websites like a boss.
+        And, you'll finally understand what those "front-end devs" at your company are working on.
+        This is the left column on desktop, #1 when stacked.</p>
+      </div>
+      <div class="col-sm-4 text-center">
+        <h1><i class="fas fa-code"></i></h1>
+        <h5>Data Analytics with SQL</h5>
+        <p> Those "data scientists" will have nothing on you. Grab those databases, build those
+        reports, and uncover those hidden insights like a champ. This is the middle column on desktop, that will stack 2nd from the top.</p>
+      </div>
+      <div class="col-sm-4 text-center">
+        <h1><i class="fas fa-code"></i></h1>
+        <h5>Software Engineering</h5>
+        <p> Be able to actually talk to those people who live in the basement of your office. That idea for the cat social network with
+        the $1B valuation you've always had? Time to build it. Right column on desktop and #3 in the stack.</p>
+      </div>
+    </div>
+
+    <%= yield %>
+  </div>
+
+<!-- Just a line, a "horizontal rule" with some space on the y-axis -->
+<hr class="my-4">
+
+<div class="container">
+    <div class="row">
+      <div class="col text-center">
+      <h2> People just love the carousel </h2>
+      <p>It works best when the images inside have the same orientation and aspect ratio</p>
+      </div>
+    </div>
+    
+    <!-- The dreaded carousel -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+</div>
